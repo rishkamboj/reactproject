@@ -1,0 +1,28 @@
+.container {
+
+     max-width: 800px;
+     margin: 0 auto;
+   }
+
+   .tags {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content:center;
+     
+   }
+
+   .tag {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     margin-right: 10px; /* Adjust spacing between tags */
+   }
+
+   .pipe {
+     color: red;
+     margin: 0 5px; /* Adjust spacing around the pipe */
+   }
