@@ -5,7 +5,7 @@ import toffy from '../assets/1.png'
 export function Mid(){
      
      return (
-    <div style={{display:"flex",flexDirection:"row", gap:"20px"}}>
+    <div className="maindiv" style={{display:"flex",flexDirection:"row", gap:"20px"}}>
         <div style={{display:"flex"}}><img src={toffy} style={{height:"510px"}}/></div>
         <div style={{display:"flex",flexDirection:"column",flexWrap:"wrap"}}><b><h4 style={{marginBlockEnd:"unset"}}> C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the 4th time.</h4></b>
         <ul>
