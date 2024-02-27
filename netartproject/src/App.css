@@ -1,13 +1,21 @@
+
+body{
+ 
+    background: linear-gradient(to bottom, #FFFEF4, #FFFAC6);
+    /* You can adjust 'to bottom' to achieve a different gradient direction */
+    /* Additional CSS properties for sizing, positioning, etc. can be added */
+
+}
 .container {
 
-     max-width: 800px;
+    
      margin: 0 auto;
    }
 
    .tags {
      list-style-type: none;
-     padding: 0;
-     margin: 0;
+     padding: 10px;
+     margin: 10px;
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
