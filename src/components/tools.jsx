@@ -5,7 +5,7 @@ export function Tool(){
 
      return (
           <>
-<div style={{display:"flex", flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
+<div className="maindiv" style={{display:"flex", flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
   <img src={tools}  style={{width:"900px"}}/>
   <h5 style={{fontWeight:"lighter"}}>Valves - Pumps - Pipes - IoT Drives & Controllers - Wires & Cables - Solar Systems - Motors 
 C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</h5>
